@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vedantu Automation Test Suite">
+
+    <!--<listeners>
+        <listener class-name="com.vedantu.extentreportlistener.ExtentReporterNG" />
+    </listeners>-->
+
+    <test name="Vedantu Test Cases">
+        <classes>
+            <class name = "com.vedantu.qa.VedantuE2ETest"></class>
+        </classes>
+    </test>
+</suite>
